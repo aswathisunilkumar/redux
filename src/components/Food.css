@@ -1,0 +1,25 @@
+.container {
+    width: 50%;
+    height: 60%;
+    margin:auto;
+    box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(245, 146, 110);
+    padding: 10px; 
+}
+
+.button {
+    margin: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.details-container{
+    margin-top: 5%;
+    width: 100%;
+    height: 70%;
+    padding: 5px;
+}
+.properties {
+    margin: auto;
+    width:50%
+}
