@@ -14,6 +14,7 @@ const FoodDetails = () => {
                 <h2>Item Details</h2>
                 <div className="properties">
                     <p><strong>Name: </strong>{selectedDish.title}</p>
+                    <p>{selectedDish.picture}</p>
                     <p><strong>Description: </strong>{selectedDish.description}</p>
                     <p><strong>Price: </strong>{selectedDish.price}</p>
                 </div>
