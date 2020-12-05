@@ -17,6 +17,7 @@ const FoodDetails = () => {
                     <p>{selectedDish.picture}</p>
                     <p><strong>Description: </strong>{selectedDish.description}</p>
                     <p><strong>Price: </strong>{selectedDish.price}</p>
+                    <p>{selectedDish.comment}</p>
                 </div>
             </div>
         )

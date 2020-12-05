@@ -7,3 +7,21 @@ export const selectDish = (dish) => {
     }
 }
 
+export const addComment =(comment) => {
+    return {
+        type:ActionTypes.ADD_COMMENT,
+        payload:{
+            label: comment,
+            id: Math.random()
+        }
+    }
+}
+
+export const removeComment =(id) => {
+    return {
+        type:ActionTypes.REMOVE_COMMENT,
+        payload:id
+    }
+}
+
+

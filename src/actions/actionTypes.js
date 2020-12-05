@@ -1,1 +1,3 @@
 export const SELECT_DISH='SELECT_DISH';
+export const ADD_COMMENT='ADD_COMMENT';
+export const REMOVE_COMMENT='REMOVE_COMMENT';

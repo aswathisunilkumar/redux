@@ -1,8 +1,9 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from 'redux';
 import { dishesReducer, selectedDishReducer } from './dishReducer';
-
+import { commentReducer }  from './commentReducer';
 
 export default combineReducers({
     dishes: dishesReducer,
-    selectedDish: selectedDishReducer
+    selectedDish: selectedDishReducer,
+    postComments:commentReducer
 })
