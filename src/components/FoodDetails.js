@@ -19,7 +19,7 @@ const FoodDetails = () => {
                         <h2>{selectedDish.title}</h2>
                         <div><h4>Description:</h4><p>{selectedDish.description}</p></div>
                         <p><strong>Price: </strong>{selectedDish.price}</p>
-                        <p>{selectedDish.comment}</p>
+                        <p>{selectedDish.add}</p>
                     </div>
                 </div>
             </div>

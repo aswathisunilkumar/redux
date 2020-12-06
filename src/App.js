@@ -13,7 +13,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <div className="header">
-            <h2>Restaurante Con Fusión</h2>
+            <h2>Fusión Restaurant</h2>
           </div>
           <Switch>
             <Route exact path="/" component={Menu} />
