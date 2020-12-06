@@ -11,13 +11,16 @@ const FoodDetails = () => {
         return (
         
             <div className="details-container">
-                <h2>Item Details</h2>
-                <div className="properties">
-                    <p><strong>Name: </strong>{selectedDish.title}</p>
-                    <p>{selectedDish.picture}</p>
-                    <p><strong>Description: </strong>{selectedDish.description}</p>
-                    <p><strong>Price: </strong>{selectedDish.price}</p>
-                    <p>{selectedDish.comment}</p>
+                <div className="items">
+                    <div className="image">
+                        {selectedDish.picture}  
+                    </div>
+                    <div className="properties">
+                        <h2>{selectedDish.title}</h2>
+                        <div><h4>Description:</h4><p>{selectedDish.description}</p></div>
+                        <p><strong>Price: </strong>{selectedDish.price}</p>
+                        <p>{selectedDish.comment}</p>
+                    </div>
                 </div>
             </div>
         )

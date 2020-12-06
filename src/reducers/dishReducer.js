@@ -22,6 +22,7 @@ import PostComment from '../components/PostComment';
 export const dishesReducer = () => {
     return [
     {
+        id:1,
         title: 'Uthappizza',
         picture:<img src={Uthapizza} alt="Uthapizza" className="avatar"/>,
         description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.', 
@@ -29,6 +30,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:2,
         title: 'Chhole Bhature',
         picture:<img src={ChholeBhature} alt="Chhole Bhature" className="avatar"/>,
         description: 'Chhole Bhature is one of the most popular Punjabi dish liked almost all over India. Chole stands for a spiced tangy chickpea curry and Bhatura is a soft and fluffy fried leavened bread.', 
@@ -36,6 +38,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:3,
         title: 'Masala Chai',
         picture:<img src={MasalaChai} alt=" Masala Chai" className="avatar"/>,
         description: 'Beverage made by simmering spices with milk and tea.', 
@@ -43,6 +46,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:4,
         title: 'Dhokla',
         picture:<img src={Dhokla} alt="Dhokla" className="avatar"/>,
         description: 'Made with a fermented batter derived from rice, split chickpeas and love!', 
@@ -50,6 +54,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:5,
         title: 'Aloo Paratha',
         picture:<img src={AlooParatha} alt="Aloo Paratha" className="avatar"/>,
         description: 'Aloo parathas consist of unleavened dough rolled with a mixture of mashed potato and spices, which is cooked on a hot tawa with butter or ghee. Aloo paratha is usually served with butter, chutney, or Indian pickles.', 
@@ -57,6 +62,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:6,
         title: 'Hyderabadi Biryani',
         picture:<img src={HyderabadiBiryani} alt="Hyderabadi Biryani" className="avatar"/>,
         description: 'made with Indian spices, rice, and meat (chicken, goat, lamb, prawn, or fish), and sometimes, in addition, eggs and/or potatoes.', 
@@ -64,6 +70,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:7,
         title: 'Gajar ka Halwa',
         picture:<img src={Gajarkahalwa} alt="Gajar ka halwa" className="avatar"/>,
         description: 'Made by placing grated carrots in a pot containing a specific amount of water, milk and sugar and then cooking while stirring regularly.', 
@@ -71,6 +78,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:8,
         title: 'Kaju Katli',
         picture:<img src={KajuKatli} alt="Kaju Katli" className="avatar"/>,
         description: 'Made by thickening milk with sugar and other ingredients. Kesar kaju katli is a kaju katli recipe that includes saffron.', 
@@ -78,6 +86,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:9,
         title: 'Masala Dosa',
         picture:<img src={MasalaDosa} alt="Masala Dosa" className="avatar"/>,
         description: 'Made from rice, lentils, potato, fenugreek, and curry leaves, and served with chutneys and sambar.', 
@@ -85,6 +94,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:10,
         title: 'Chocolate Mousse',
         picture:<img src={ChocolateMousse} alt="Chocolate Mousse" className="avatar"/>,
         description: 'Made with whipped egg whites, whipped cream, or both, and flavored with one or more of chocolate, coffee, caramel, puréed fruits, or various herbs and spices, such as mint or vanilla.', 
@@ -92,6 +102,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:11,
         title: 'Macaroon',
         picture:<img src={Macaroon} alt="Macaroon" className="avatar"/>,
         description: 'A sweet meringue-based confection made with egg white, icing sugar, granulated sugar, almond meal, and food colouring.', 
@@ -99,6 +110,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:12,
         title: 'Red Velvet Cake',
         picture:<img src={RedVelvetCake} alt="Red Velvet Cake" className="avatar"/>,
         description: 'Red velvet cake is a traditionally crimson-colored chocolate layer cake with cream cheese icing. Usually made with a combination of buttermilk, butter, cocoa, vinegar, and flour.', 
@@ -106,6 +118,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:13,
         title: 'Waffles',
         picture:<img src={Waffles} alt="Waffles" className="avatar"/>,
         description: 'A waffle is a dish made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size, shape, and surface impression.', 
@@ -113,6 +126,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:14,
         title: 'Death By Chocolate',
         picture:<img src={DeathByChocolate} alt="Death By Chocolate" className="avatar"/>,
         description: 'Milk, cream, sugar, chocolate variegate (high fructose corn syrup, corn syrup, water, cocoa processed with alkali, sugar, modified corn starch, salt, mono & diglycerides, natural & artificial flavor), fudge pieces (sugar, coconut oil, cocoa processed with alkali, refined peanut oil, cocoa, natural flavor, soy lecithin).', 
@@ -120,6 +134,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:15,
         title: 'Zucchipakoda',
         picture:<img src={Zucchipakoda} alt="Zucchipakoda"  className="avatar"/>, 
         description: 'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce.', 
@@ -127,6 +142,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:16,
         title: 'Vadonut', 
         picture:<img src={Vadonut} alt="Vadonut" className="avatar"/>, 
         description: 'A quintessential ConFusion experience, is it a vada or is it a donut?', 
@@ -134,6 +150,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:17,
         title: 'Red Sauce Chicken Pasta', 
         picture:<img src={Pasta} alt="Red Sauce Chicken Pasta" className="avatar"/>,
         description: 'Pasta densely cooked using olive oil, tomatoes, garlic and red chilli peppers.', 
@@ -141,6 +158,7 @@ export const dishesReducer = () => {
         comment:<PostComment/>
     },
     {
+        id:18,
         title: 'ElaiCheese Cake', 
         picture:<img src={ElaiCheeseCake} alt="Elai Cheese Cake" className="avatar"/>,
         description: 'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms.', 

@@ -1,7 +1,8 @@
 import React ,{ useState} from 'react';
 import { useSelector,useDispatch } from 'react-redux';
 import { selectDish } from '../actions/actionCreators';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import './Food.css';
 
 const Menu = () => {
@@ -20,9 +21,11 @@ const Menu = () => {
             <div key={dish.title} className="item-card">
                  <span>{dish.picture}</span>
                 <span className="content-title">{dish.title}</span>
-                <button className="button" 
-                onClick={() => dispatch(selectDish(dish))}
-                >More!</button>
+                <Link to={`/dish/${dish.id}`}>
+                    <button className="button" 
+                    onClick={() => dispatch(selectDish(dish))}
+                    >More!</button>
+                </Link>
              </div>
             )
         })
